@@ -1,0 +1,107 @@
+/* 
+.container{
+    padding: 50px;
+    color: #F2F2F2; 
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 150px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.context{
+    text-align: center;
+}
+
+ */
+ /* .home{
+     /* background: url('../assets/home/background-home-desktop.jpg')
+     no-repeat center/
+     cover; 
+     height: calc(100vh + 1px);
+ } */
+
+.home .context{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: calc(100vh + 1px); */
+    text-align: center;
+    color: #7e7e7e;
+    padding-top: 100px;
+ 
+
+}
+.main-text{
+    padding: 50px;
+}
+
+
+.text{
+  font-size:30px; 
+  font-weight: 600;
+ 
+
+}
+.block{
+  font-size: 100px; 
+  font-weight: 600; 
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  letter-spacing: 10px;
+}
+.btn{
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+}
+.btn:hover{
+background-color: #7e7e7e;;
+}
+.explore{
+    padding: 50px 100px;
+}
+
+
+
+@media (max-width: 768px) {
+.home{
+    background: url('../assets/home/background-home-mobile.jpg') no-repeat center/
+    cover;
+
+}
+.home .context{
+    /* position: absolute; */
+
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.explore{
+    margin-top: 40px;
+}
+ .text{
+     font-size: 15px;
+ }  
+ .block{
+     font-size: 50px
+ }
+ .main-text{
+     align-items: center;
+     padding: 35px;
+ }
+
+}
