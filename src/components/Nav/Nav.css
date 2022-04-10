@@ -1,12 +1,11 @@
 header{
-    /* position: absolute; */
-    
-    /* padding: 20px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 30px 5%; */
-    
+ position: absolute;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+
 }
 .logo{
     padding: 50px;
@@ -46,7 +45,23 @@ li{
 
 @media (min-width: 768px) {
  
-  #menu{
-      display: block;
-  }  
+    #menu {
+        display: none;
+      }
+    
+     #navbar {
+        display: block;
+      }
+    
+      .header nav ul {
+        flex-direction: row;
+        background-color: transparent;
+        backdrop-filter: blur(0);
+        --webkit-backdrop-filter: blur(0);
+        position: relative;
+        top: 0;
+        right: 0;
+        width: auto;
+      }
+
 }

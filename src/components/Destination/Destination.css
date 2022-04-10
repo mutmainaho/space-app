@@ -1,0 +1,31 @@
+.destination{
+    background: url(../assets/destination/background-destination-desktop.jpg)
+    no-repeat center/
+     cover; 
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+     
+}
+/* 
+.destination h1{
+    font-size: 50px;
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.text{
+    
+   display: flex;
+   align-items:center;
+   margin-left: 50px;
+   justify-content: space-between;
+}
+.name {
+    font-family: Bellefair;
+    font-size: 150px;
+    line-height: 172px;
+    padding: 24px 5px 24px 0;
+    color: white;
+  }
+   */

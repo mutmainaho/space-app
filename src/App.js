@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <Router>
-        <Nav />
+        <Nav/>
 
         <Switch>
           <Route path="/" exact>
